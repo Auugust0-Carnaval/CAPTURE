@@ -1,3 +1,35 @@
+.vertical-navbar{
+    padding: 20px;
+    width: 200px;
+    height: 100vh; /*autura total da janela de visualização*/
+    position: fixed; /* fixa a posicao da div na pagina*/
+    left: 0; /*aliha a esquerda*/
+    top: 35px;
+    display: flex; 
+    flex-direction: column; /*colocar items em coluna*/
+    /* border-right: black solid 1px; */
+
+}
+
+
+.vertical-navbar ul{
+    list-style: none;
+    margin-top: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-navbar li{
+    margin-bottom: 10px;
+}
+
+
+.vertical-navbar a{
+    text-decoration: none;
+    color: #333;
+}
+
 div{
-    padding: 10px;
+    padding: 7px;
+
 }
