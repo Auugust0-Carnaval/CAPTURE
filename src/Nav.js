@@ -12,18 +12,18 @@ function Nav(){
         <div>
             <button className="btn btn-outline-primary" onClick={handleClick}>CAPTURE</button>
             {showNavbar && (
-                <nav>
-                <ul>
-                    <li>
-                    <a href="#">Página 1</a>
-                    </li>
-                    <li>
-                    <a href="#">Página 2</a>
-                    </li>
-                    <li>
-                    <a href="#">Página 3</a>
-                    </li>
-                </ul>
+                <nav className="vertical-navbar">
+                    <ul className="list-group">
+                        <li className="list-group-item">
+                            <a href="#">FEED</a>
+                        </li>
+                        <li className="list-group-item">
+                            <a href="#">NOTIFY</a>
+                        </li>
+                        <li className="list-group-item">
+                            <a href="#">PROFILE</a>
+                        </li>
+                    </ul>
                 </nav>
             )}
         </div>
