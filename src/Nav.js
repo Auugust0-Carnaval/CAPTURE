@@ -22,27 +22,29 @@ function Nav(){
         setIsNavVisible(true);
     }, []);
 
+
+    const colorFixed = '#EC7200'
+
     return (
         <div>
             <button className="btn btn-outline-primary" onClick={handleClick}>
-                <FontAwesomeIcon icon={faTwitter} className="Icon" />
-                 CAPTURE
+                <FontAwesomeIcon icon={faTwitter} className="Icon" /> CAPTURE
             </button>
             {showNavbar && (
                 <nav className="vertical-navbar">
                     <ul className="list-group btn-success">
                         <li className="list-group-item">
-                            <a href="#">
+                            <a href="#" style={{color: colorFixed}}>
                                 <FontAwesomeIcon icon={faCookieBite} className="Icon" /> FEED
                             </a>
                         </li>
                         <li className="list-group-item">
-                            <a href="#">
+                            <a href="#" style={{color: colorFixed}}>
                                 <FontAwesomeIcon icon={faBell} className="Icon" /> NOTIFY
                             </a>
                         </li>
                         <li className="list-group-item">
-                            <a href="#">
+                            <a href="#" style={{color: colorFixed}}>
                                 <FontAwesomeIcon icon={faUser} className="Icon" /> PROFILE
                             </a>
                         </li>
