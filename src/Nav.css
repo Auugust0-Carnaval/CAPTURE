@@ -35,6 +35,7 @@ div{
 
 button{
     transition: transform 3.0s ease;
+    position: fixed;
 }
 
 button:hover{
