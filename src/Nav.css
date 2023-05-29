@@ -7,6 +7,7 @@
     top: 55px;
     display: flex; 
     flex-direction: column; 
+    /* border: solid rgb(224, 176, 112) 0.5px ; */
     /*colocar items em coluna*/
 }
 
@@ -29,8 +30,8 @@
 
 div{
     padding: 7px;
-}
 
+}
 
 button{
     transition: transform 3.0s ease;
