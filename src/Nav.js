@@ -15,9 +15,7 @@ function Nav(){
     const handleClick = () => {
         setShowNavbar(!showNavbar);
     };
-
-
-
+    
     const [isNavVisible,setIsNavVisible] = useState(false);
 
     useEffect(() => {

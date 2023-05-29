@@ -4,7 +4,7 @@
     height: 100vh; /*autura total da janela de visualização*/
     position: fixed; /* fixa a posicao da div na pagina*/
     left: 0; /*aliha a esquerda*/
-    top: 35px;
+    top: 55px;
     display: flex; 
     flex-direction: column; 
     /*colocar items em coluna*/
