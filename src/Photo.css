@@ -1,0 +1,33 @@
+#card{
+    visibility:visible;
+    width: 19rem;
+    margin-left: 40%;
+}
+
+
+#favori{
+    float: right;
+    color: red;
+    transition: 1.5s ease;
+}
+#favori:hover{
+    transition: 1.0s ease;
+    transform: scale(1.2);
+}
+
+#like{
+    color: blue;
+    transition: 1.5s ease;
+}
+#like:hover{
+    transition: 1.0s ease;
+    transform: scale(1.2);
+}
+
+p{
+    color: rgb(3, 3, 87);
+    font-size: 18px;
+    float: left;
+}
+
+
