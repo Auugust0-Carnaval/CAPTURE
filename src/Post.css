@@ -1,0 +1,23 @@
+.setCartoon{ 
+    width: 75rem;
+
+}
+
+
+.file-input-container{
+    margin-left: 38%;
+    margin-bottom: 25px;
+    transition: none;
+    transform: none;
+}
+
+.file-input-container:hover{
+    transition: none;
+    transform: scale(none);
+}
+
+.file-input-container i{
+    color: blue;
+}
+
+
