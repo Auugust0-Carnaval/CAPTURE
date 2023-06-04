@@ -8,7 +8,8 @@
   margin-left: 15px;
 }
 
-
-
-
-
+#images{
+  margin-top: 4%;
+  margin-left: 8%;
+  align-items: baseline; /*deixa os elementos*/
+}

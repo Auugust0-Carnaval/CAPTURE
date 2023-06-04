@@ -49,25 +49,28 @@ function App() {
           <div id='message' className='row'>
             <div className='col-md-12 d-flex justify-content-center align-items-center'>
               {isMessageVisible && (
-                <div id='message' class="ui warning message transition visible ">
+                <div id='message' 
+                className="ui warning message transition visible">
                   <i class="close icon" onClick={toggleDivVisibility}></i>
-                  <div class="header">
+                  <div class="header text-center">
                     Nenhuma foto encontrada
                   </div>
-                    Faça o registro ou envie um desenho, ou tente novamente
+                    Faça o registro ou envie um desenho
                 </div>
               )}
             </div>
           </div>
-        ) : (
-          <div className='row'>
+          ) : (
+          <div className='row' id='images'>
             {photos.map((photo) => (
               <div key={photo.id} className='col-md-4'>
+                <div className='img'>
                 <Photo
                   ImgSrc={bufferToImageUrl(photo.Img)}
                   title={photo.title}
                   description={photo.description}
                 />
+                </div>
               </div>
             ))}
           </div>
