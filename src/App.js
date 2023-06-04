@@ -6,6 +6,8 @@ import 'semantic-ui-css/semantic.min.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+import Post from './Post';
+
 function App() {
   const [photos, setPhotos] = useState([]);
   const [hasNoPhotos, setHasNoPhotos] = useState(false);
@@ -46,20 +48,26 @@ function App() {
       </div>
       <div className='container'>
         {hasNoPhotos ? (
-          <div id='message' className='row'>
-            <div className='col-md-12 d-flex justify-content-center align-items-center'>
-              {isMessageVisible && (
-                <div id='message' 
-                className="ui warning message transition visible">
-                  <i class="close icon" onClick={toggleDivVisibility}></i>
-                  <div class="header text-center">
-                    Nenhuma foto encontrada
-                  </div>
-                    Faça o registro ou envie um desenho
+          <div>
+              <div id='message' className='row'>
+                <div className='col-md-12 d-flex justify-content-center align-items-center'>
+                  {isMessageVisible && (
+                    <div id='message' className="ui warning message transition visible">
+                      <i class="close icon" onClick={toggleDivVisibility}></i>
+                      <div class="header text-center">
+                        Nenhuma foto encontrada
+                      </div>
+                        Faça o registro ou envie um desenho
+                    </div>
+                  )}
                 </div>
-              )}
             </div>
+            <div className='post'>
+              <Post/>
+            </div>
+              
           </div>
+
           ) : (
           <div className='row' id='images'>
             {photos.map((photo) => (
