@@ -52,17 +52,19 @@ function App() {
               <div id='message' className='row'>
                 <div className='col-md-12 d-flex justify-content-center align-items-center'>
                   {isMessageVisible && (
-                    <div id='message' className="ui warning message transition visible">
+                    <div id='content' className="ui warning message transition visible" style={{width: "20rem"}}>
                       <i class="close icon" onClick={toggleDivVisibility}></i>
                       <div class="header text-center">
-                        Nenhuma foto encontrada
+                        NOT PHOTOS FOUND
                       </div>
-                        Faça o registro ou envie um desenho
+                      <div className='text-center'>
+                        Register or submit a drawing
+                      </div>
                     </div>
                   )}
                 </div>
             </div>
-            <div className='post'>
+            <div className='post text-center'>
               <Post/>
             </div>
               

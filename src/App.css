@@ -13,3 +13,15 @@
   margin-left: 8%;
   align-items: baseline; /*deixa os elementos*/
 }
+
+
+#content{
+  background-color: rgba(0, 0, 0, 0.0);
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.0);
+}
+
+.post{
+  margin-left: 6%;
+}
+
