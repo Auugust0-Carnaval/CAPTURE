@@ -36,10 +36,12 @@ div{
 button{
     transition: transform 3.0s ease;
     position: fixed;
+    border: none;
+    color: white;
 }
 
 button:hover{
-    transition: transform 1.0s ease;
+    transition: transform 2.0s ease;
     transform: scale(1.1);
 }
 
@@ -63,3 +65,6 @@ button:hover{
     transition: transform 1.s ease;
 }
 
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0.0);
+}
