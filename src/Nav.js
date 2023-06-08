@@ -23,11 +23,11 @@ function Nav(){
     }, []);
 
 
-    const colorFixed = '#EC7200'
+    const colorFixed = 'white'
 
     return (
         <div>
-            <button className="btn btn-outline-primary" onClick={handleClick}>
+            <button className="btn btn-outline text-white" onClick={handleClick}>
                 <FontAwesomeIcon icon={faTwitter} className="Icon" /> CAPTURE
             </button>
             {showNavbar && (
@@ -49,7 +49,7 @@ function Nav(){
                             </a>
                         </li>
 
-                        <a href="#" className="btn btn-outline-primary" id="more">
+                        <a href="#" className="btn btn-outline-primary text-white" id="more">
                             <FontAwesomeIcon icon={faEllipsisV } className="Icon"/>                            </a>
                     </ul>
                 </nav>
