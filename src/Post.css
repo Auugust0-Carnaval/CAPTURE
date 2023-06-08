@@ -1,23 +1,40 @@
 .setCartoon{ 
-    width: 75rem;
-
+    width: 70rem;
 }
 
 
 .file-input-container{
-    margin-left: 38%;
     margin-bottom: 25px;
     transition: none;
-    transform: none;
+    animation: none;
+    margin-right: 25%;
+    
 }
 
-.file-input-container:hover{
-    transition: none;
-    transform: scale(none);
+.file-input-container input button {
+    background-color: red;
 }
+
 
 .file-input-container i{
     color: blue;
 }
 
+#contentPost {
+    background-color: rgba(0, 0, 0, 0.0);
+}
 
+
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0);
+}
+  
+  
+.users{
+     color: blue;
+}
+
+.transparent-input::placeholder{
+    font-size: large;
+
+}
